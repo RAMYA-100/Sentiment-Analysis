@@ -5,11 +5,17 @@
 To perform sentiment analysis on social media text data using the VADER sentiment analyzer and filter only the negative feedback.
 # Algorithm:
 1.Load the Sentiment140 dataset using Pandas.
+
 2.Initialize the VADER sentiment analyzer.
+
 3.Analyze each text and calculate its compound sentiment score.
+
 4.Identify records with a compound score less than 0.
+
 5.Filter and display only the negative feedback.
+
 6.Save the filtered data as negative_feedback.csv
+
 # Program
 ```
 import pandas as pd
